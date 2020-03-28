@@ -16,7 +16,7 @@ public class App
 
     @GetMapping("/") // (3)
     String home() {
-        return "Hello Spring Boot!"; // (4)
+        return "Hello world!"; // (4)
     }
 
     public static void main( String[] args )
